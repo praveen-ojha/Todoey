@@ -13,6 +13,7 @@
 		35D82EA820F2F08D00002D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D82EA620F2F08D00002D51 /* Main.storyboard */; };
 		35D82EAA20F2F08E00002D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D82EA920F2F08E00002D51 /* Assets.xcassets */; };
 		35D82EAD20F2F08E00002D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D82EAB20F2F08E00002D51 /* LaunchScreen.storyboard */; };
+		35FB1B5C21003109009B7190 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB1B5B21003109009B7190 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35D82EA920F2F08E00002D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D82EAC20F2F08E00002D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D82EAE20F2F08E00002D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FB1B5B21003109009B7190 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		35E5CD1A20F5B76600805193 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				35FB1B5B21003109009B7190 /* CategoryViewController.swift */,
 				35D82EA420F2F08D00002D51 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 				3506383E20F7AA3E00A5C978 /* DataModel.xcdatamodeld in Sources */,
 				35D82EA520F2F08D00002D51 /* TodoListViewController.swift in Sources */,
 				35D82EA320F2F08D00002D51 /* AppDelegate.swift in Sources */,
+				35FB1B5C21003109009B7190 /* CategoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
