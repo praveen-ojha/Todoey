@@ -1,5 +1,5 @@
 //
-//  Data.swift
+//  Category.swift
 //  Todoey
 //
 //  Created by Praveen Ojha on 23/7/18.
@@ -9,7 +9,9 @@
 import Foundation
 import RealmSwift
 
-class Data: Object {
+class Category: Object {
     @objc dynamic var name: String = ""
-    @objc dynamic var age: Int = 0
+    
+    //Creating relationship one to many in Realm DB between Category and Item - this is forward relationship
+    let items = List<Item>()
 }
